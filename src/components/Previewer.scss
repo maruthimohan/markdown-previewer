@@ -1,0 +1,20 @@
+.previewer { 
+    float: left;
+    width: 50%;
+    height: 95%;
+
+    .preview-header {
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+
+    .preview {
+        overflow: auto;
+        height: 100%;
+        padding: 10px;
+        background-color: #e4e4e0;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        box-sizing: border-box;
+    }
+}

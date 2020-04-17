@@ -1,0 +1,15 @@
+.App {
+  position: absolute;
+  padding: 10px 20px 50px 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+
+  .app-header {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+

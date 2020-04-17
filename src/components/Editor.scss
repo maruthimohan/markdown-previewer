@@ -1,0 +1,27 @@
+.editor {
+    float: left;
+    width: 48%;
+    margin-right: 20px;
+    height: 95%;
+
+    .editor-header {
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+
+    .editor-text-area {
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        outline: none;
+        resize: none;
+        overflow: auto;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #072742;
+        color: white;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    }
+}
