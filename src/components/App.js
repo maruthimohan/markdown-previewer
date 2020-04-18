@@ -70,7 +70,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <div className="app-header">Markdown Previewer.</div>
+                <div className="app-header">Markdown Previewer</div>
                 <Editor handleMarkdownChange={this.handleMarkdownChange} markdown={this.state.markdown} />
                 <Previewer markdown={this.state.markdown} />
             </div>

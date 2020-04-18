@@ -1,3 +1,8 @@
+// Creating Variables
+$custom-fonts: 'Audiowide', cursive;
+$carter-one: 'Carter One', cursive;
+
+
 .App {
   position: absolute;
   padding: 10px 20px 50px 20px;
@@ -6,10 +11,13 @@
   box-sizing: border-box;
 
   .app-header {
-    font-size: 18px;
+    font-size: 24px;
     text-align: right;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 10px;
+    font-family: "Audiowide", cursive;
+    letter-spacing: 1px;
+    color: #7e7f82;
   }
 }
 
